@@ -1,17 +1,15 @@
-import React from 'react';
-import "@pages/Reservation/Reservation";
+import React from "react";
+import "@pages/Reservation/Reservation.css";
 
 function Reservation() {
   return (
     <div className="Reservation">
       <div className="container-fluid">
-      <label className="form-label mt-5">
-        Demande de réservation
-      </label>
+        <h1 className="mt-5">Demande de réservation</h1>
         <div className="row">
           <div className=" d-flex flex-column align-items-center col-12 col-lg-5">
             <div className="text-start mb-4 col-10 col-lg-7">
-              <label className="form-label">
+              <label className="form-label" htmlFor="prenomresa">
                 Prénom
               </label>
               <input
@@ -26,7 +24,7 @@ function Reservation() {
               {/* )} */}
             </div>
             <div className="text-start mb-4 col-10 col-lg-7">
-              <label className="form-label">
+              <label className="form-label" htmlFor="nomresa">
                 Nom
               </label>
               <input
@@ -41,7 +39,7 @@ function Reservation() {
               {/* )} */}
             </div>
             <div className="text-start mb-4 col-10 col-lg-7">
-              <label className="form-label">
+              <label className="form-label" htmlFor="telresa">
                 Téléphone
               </label>
               <input
@@ -58,7 +56,7 @@ function Reservation() {
           </div>
           <div className="d-flex flex-column align-items-center col-12 col-lg-12">
             <div className="text-start mb-4 col-10 col-lg-10">
-              <label className="form-label">
+              <label className="form-label" htmlFor="emailresa">
                 Email
               </label>
               <input
@@ -75,7 +73,7 @@ function Reservation() {
           </div>
           <div className="d-flex flex-column align-items-center col-12 col-lg-5">
             <div className="text-start mb-4 col-10 col-lg-7">
-              <label className="form-label">
+              <label className="form-label" htmlFor="nblitresa">
                 Nombre de lits
               </label>
               <input
@@ -92,7 +90,7 @@ function Reservation() {
           </div>
           <div className="d-flex flex-column align-items-center col-12 col-lg-12">
             <div className="text-start mb-4 col-10 col-lg-10">
-              <label className="form-label">
+              <label className="form-label" htmlFor="remarquess">
                 Remarques
               </label>
               <textarea
