@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 
 export default function Home() {
+  const [date, setDate] = useState();
+
+  const handleChangeDate = (e) => {
+    setDate(e.target.value);
+  };
   return (
     <div className="home-1">
-      <h1 className="text d-flex text-center p-5">
-        Des séjours adaptés à votre handicap pendant la coupe du monde 2022
+      <h1 className="text text-center p-5">
+        Des séjours adaptés à <span className="handi">votre handicap </span>
+        pendant la coupe du monde 2022
       </h1>
       <p className="text d-flex text-center p-5 fs-4">
         HandiQat, 1er site de réservation pour la World Cup 2022 au Qatar pour
         les personnes à mobilité réduite et en situation de handicap
       </p>
-      <div className="input-home col-12 text-center m-2">
+      <div className="input-home d-flex flex-column mb-3 align-items-center col-12 text-center m-2">
         <select
           className="form-select form-select-sm w-50 text-center"
           aria-label=".form-select-sm example"
@@ -29,20 +35,22 @@ export default function Home() {
             Date : Aller | Retour
           </span>
           <input
+            onChange={(e) => handleChangeDate(e.target.value)}
             type="date"
             id="start"
             name="trip-start"
-            value="2022-11-24"
+            value={date}
             min="2022-11-25"
             max="2022-12-25"
           />
           <input
+            onChange={(e) => handleChangeDate(e.target.value)}
             type="date"
             id="start"
             name="trip-start"
-            value="2022-11-24"
-            min="2022-11-24"
-            max="2022-12-31"
+            value={date}
+            min="2022-11-25"
+            max="2022-12-25"
           />
         </div>
         <select
@@ -56,7 +64,7 @@ export default function Home() {
           <option value="3">4 et +</option>
         </select>
         <button className="boutton-search btn btn-lg m-2" type="button">
-          Rechercher
+          <span className="text-bouton">Rechercher</span>
         </button>
       </div>
       <div className="text d-flex text-center">

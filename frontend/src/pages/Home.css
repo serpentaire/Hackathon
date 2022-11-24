@@ -1,12 +1,29 @@
 .home-1 {
   background-color: #a9bcd0;
 }
+
 .text {
   color: #f4f4f4;
 }
-.date-input {
-  background-color: transparent;
+
+.handi {
+  color: #58a4b0;
 }
+
+.date-input {
+  background-color: #f4f4f4;
+}
+
 .boutton-search {
   background-color: #58a4b0;
+}
+
+.text-bouton {
+  color: #f4f4f4;
+}
+
+@media (min-width: 768px) {
+  .input-home {
+    display: flex;
+  }
 }
