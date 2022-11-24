@@ -50,7 +50,7 @@ const Hotel = [
     name: "Sedra Arjaan by Rotana ",
     adress: "Tower 26, Porto Arabia Marina, The Pearl, Doha, Qatar      ",
     price: "300 €",
-    image: "hotel/sedra-arjaan-by-rotana.jpg",
+    image: "src/assets/hotel/sedra-arjaan-by-rotana.jpg",
     type: ["Moteur", "Auditif"],
     note: "4 / 5 ",
     description:

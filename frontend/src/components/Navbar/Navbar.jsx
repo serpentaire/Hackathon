@@ -31,7 +31,7 @@ function NavBar() {
       >
         <Link
           className="text-white d-md-block navbar-toggler text-decoration-none"
-          to="/AllProduct"
+          to="/"
         >
           Besoin d'aide ? 📞
         </Link>
