@@ -17,7 +17,7 @@ export default function Map() {
       container: mapContainer.current,
       style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${API_KEY}`,
       center: [lng, lat],
-      zoom: zoom,
+      zoom,
     });
     map.current.addControl(new maplibregl.NavigationControl(), "top-right");
     new maplibregl.Marker({ color: "#FF0000" })

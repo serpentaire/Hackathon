@@ -42,6 +42,7 @@ export default function Home() {
         </select>
         <button className="boutton-search btn btn-lg m-2" type="button">
           <span className="text-bouton">Rechercher </span>
+        </button>
         <div className="input p-0 m-0 d-flex flex-column align-items-center">
           <span className="date-input justify-content-center input-group-text w-75 m-3">
             Date : Aller | Retour

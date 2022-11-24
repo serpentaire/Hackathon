@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "@pages/Reservation/Reservation.css";
+import "@components/Reservation/Reservation.css";
 
 function Reservation() {
   return (
