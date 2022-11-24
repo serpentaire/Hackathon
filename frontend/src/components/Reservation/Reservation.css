@@ -3,6 +3,7 @@
   color: white;
   position: absolute;
   z-index: 1;
+  left: 0px;
 }
 
 #prenomresa,
@@ -21,8 +22,8 @@
   .Reservation {
     position: absolute;
     z-index: 1;
-    left: 18%;
-    top: 60px;
+    left: 16%;
+    top: 1100px;
     bottom: 0px;
     width: 550px;
     height: 850px;
@@ -34,8 +35,8 @@
   .Reservation {
     position: absolute;
     z-index: 1;
-    left: 18%;
-    top: 60px;
+    left: 17%;
+    top: 1250px;
     bottom: 0px;
     width: 850px;
     height: 850px;
