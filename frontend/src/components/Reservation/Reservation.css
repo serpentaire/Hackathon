@@ -1,6 +1,8 @@
 .Reservation {
   background-color: #58a4b0;
   color: white;
+  position: absolute;
+  z-index: 1;
 }
 
 #prenomresa,
@@ -13,4 +15,30 @@
 }
 .buttonresa {
   border-radius: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .Reservation {
+    position: absolute;
+    z-index: 1;
+    left: 18%;
+    top: 60px;
+    bottom: 0px;
+    width: 550px;
+    height: 850px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Reservation {
+    position: absolute;
+    z-index: 1;
+    left: 18%;
+    top: 60px;
+    bottom: 0px;
+    width: 850px;
+    height: 850px;
+    border-radius: 20px;
+  }
 }
