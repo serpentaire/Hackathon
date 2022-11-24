@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
     <div className="Footer pt-5 position-absolute w-100 sticky-bottom">
       <div className="container-fluid">
         <div className="row">
-{/* ----------------------------------------------------début des contacts et réseau sociaux---------------- */}
+          {/* ----------------------------------------------------début des contacts et réseau sociaux---------------- */}
           <div className="d-flex col-6 col-sm-7 col-lg-6 align-items-center justify-content-start px-0">
             <ul className="d-flex align-items-start justify-content-start ps-0">
               <svg
@@ -60,7 +60,7 @@ function Footer() {
               </svg>
             </ul>
           </div>
-{/* --------------------------------------------------------fin des contacts et réseau sociaux-------------------- */}
+          {/* --------------------------------------------------------fin des contacts et réseau sociaux-------------------- */}
           <div className="row">
             <div className="mt-2 mt-sm-2">
               <p className="h6 text-center w-100">© Tous droits réservés.</p>
