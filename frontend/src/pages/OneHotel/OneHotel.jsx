@@ -52,13 +52,14 @@ function OneHotel() {
         <div>
           {openpopup && <Reservation />}
           <button
-           type="button"
+            type="button"
             className="reservbutton p-2 mt-5 mb-5"
             onClick={() => setOpenpopup(true)}
           >
-          <span className="text-white">Je réserve mon séjour ⚽</span>
+            <span className="text-white">Je réserve mon séjour ⚽</span>
           </button>
         </div>
+      </div>
     </div>
   );
 }
