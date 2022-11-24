@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Reservation from "./pages/Reservation/Reservation";
+import Reservation from "./pages/Reservation/Reservation";
 import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Reservation" element={<Reservation />} />
       </Routes>
       <Map />
       <Footer />
