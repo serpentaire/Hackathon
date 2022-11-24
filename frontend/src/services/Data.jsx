@@ -4,9 +4,7 @@ const Hotel = [
     name: "DoubleTree by Hilton Doha - Al Sadd",
     adress: "65 Mohamed Bin Al Qassim St, Doha, Qatar",
     price: "95€",
-    image: (
-      <img src="Hackathon/frontend/hotel/doubletree.jpg" alt="" id="mainImg" />
-    ),
+    image: "src/assets/hotel/06fc2906.jpg",
     type: "Moteur",
     note: "4,7 / 5",
     description:
@@ -17,9 +15,7 @@ const Hotel = [
     name: "Hilton Doha The Pearl Hotel & Residences ",
     adress: "Abraj Quartier Pearl Boulevard Tower AQ-07, Doha, Qatar",
     price: "150€",
-    image: (
-      <img src="Hackathon/frontend/hotel/hiltonpearl.jpg" alt="" id="mainImg" />
-    ),
+    image: "src/assets/hotel/doubletree.jpg",
     type: "Moteur",
     note: "4,5 / 5",
     description:
@@ -31,9 +27,7 @@ const Hotel = [
     adress:
       "Mall of Qatar, Doha, Qataraj Quartier Pearl Boulevard Tower AQ-07, Doha, Qatar",
     price: "188 €",
-    image: (
-      <img src="Hackathon/frontend/hotel/hiltonpearl.jpg" alt="" id="mainImg" />
-    ),
+    image: "src/assets/hotel/hiltonpearl.jpg",
     type: "Moteur",
     note: "4,3 / 5 ",
     description:
@@ -45,13 +39,7 @@ const Hotel = [
     adress:
       "Mall of Qatar, Doha, Qataraj Quartier Pearl Boulevard Tower AQ-07, Doha, Qatar",
     price: "188 €",
-    image: (
-      <img
-        src="Hackathon/frontend/hotel/mallhilton .webp"
-        alt=""
-        id="mainImg"
-      />
-    ),
+    image: "src/assets/hotel/mallhilton .webp",
     type: "Moteur",
     note: "4,3 / 5 ",
     description:
@@ -62,14 +50,8 @@ const Hotel = [
     name: "Sedra Arjaan by Rotana ",
     adress: "Tower 26, Porto Arabia Marina, The Pearl, Doha, Qatar      ",
     price: "300 €",
-    image: (
-      <img
-        src="Hackathon/frontend/hotel/sedra-arjaan-by-rotana.jpg"
-        alt=""
-        id="mainImg"
-      />
-    ),
-    type: ["Moteur", "auditif"],
+    image: "hotel/sedra-arjaan-by-rotana.jpg",
+    type: ["Moteur", "Auditif"],
     note: "4 / 5 ",
     description:
       "Cet appart'hôtel tout confort est à Doha. Les locaux disposent de 250 chambres accueillantes. Qu'ils viennent pour un voyage d'affaires ou d'agrément, tous les clients pourront rester connectés grâce à l'accès à Internet disponible dans les locaux. Retaj Inn Marina Residence dispose d'une réception ouverte 24 heures sur 24. Par ailleurs, Retaj Inn Marina Residence dispose de lits d'appoint pour enfants, à installer sur demande. Cette résidence n'accepte pas les animaux de compagnie. Les voyageurs arrivant en voiture pourront laisser leur véhicule sur les places de parking mises à leur disposition.",
@@ -80,9 +62,7 @@ const Hotel = [
     adress:
       "Al Matar Street, Plot. No. 9, Street No. 850, Area No. 26, Doha    ",
     price: "300 €",
-    image: (
-      <img src="Hackathon/frontend/hotel/06fc2906.jpg" alt="" id="mainImg" />
-    ),
+    image: "src/assets/hotel/06fc2906.jpg",
     type: ["Moteur", "auditif"],
     note: "4,5 / 5 ",
     description:
