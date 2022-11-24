@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "@pages/Reservation/Reservation.css";
 
 function Reservation() {
   return (
     <div className="Reservation">
       <div className="container-fluid">
-        <h1 className="mt-5">Demande de réservation</h1>
+        <h1 className="mt-5 text-center py-4">Demande de réservation</h1>
         <div className="row">
           <div className=" d-flex flex-column align-items-center col-12 col-lg-5">
             <div className="text-start mb-4 col-10 col-lg-7">
@@ -15,13 +16,8 @@ function Reservation() {
               <input
                 type="text"
                 id="prenomresa"
-                className="form-control border form-control-lg"
-                // value={name}
-                // onChange={(event) => setName(event.target.value)}
+                className="form-control border form-control-lg text-white"
               />
-              {/* {name === "" && ( */}
-
-              {/* )} */}
             </div>
             <div className="text-start mb-4 col-10 col-lg-7">
               <label className="form-label" htmlFor="nomresa">
@@ -30,13 +26,8 @@ function Reservation() {
               <input
                 type="text"
                 id="nomresa"
-                className="form-control border form-control-lg"
-                // value={name}
-                // onChange={(event) => setName(event.target.value)}
+                className="form-control border form-control-lg text-white"
               />
-              {/* {name === "" && ( */}
-
-              {/* )} */}
             </div>
             <div className="text-start mb-4 col-10 col-lg-7">
               <label className="form-label" htmlFor="telresa">
@@ -45,13 +36,8 @@ function Reservation() {
               <input
                 type="text"
                 id="telresa"
-                className="form-control border form-control-lg"
-                // value={newPassword}
-                // onChange={(event) => setNewPassword(event.target.value)}
+                className="form-control border form-control-lg text-white"
               />
-              {/* {newPassword === "" && ( */}
-
-              {/* )} */}
             </div>
           </div>
           <div className="d-flex flex-column align-items-center col-12 col-lg-12">
@@ -62,13 +48,8 @@ function Reservation() {
               <input
                 type="email"
                 id="emailresa"
-                className="form-control border form-control-lg"
-                // value={newEmail}
-                // onChange={(event) => setNewEmail(event.target.value)}
+                className="form-control border form-control-lg text-white"
               />
-              {/* {newEmail === "" && ( */}
-
-              {/* )} */}
             </div>
           </div>
           <div className="d-flex flex-column align-items-center col-12 col-lg-5">
@@ -76,16 +57,15 @@ function Reservation() {
               <label className="form-label" htmlFor="nblitresa">
                 Nombre de lits
               </label>
-              <input
-                type="text"
+              <select
                 id="nblitresa"
-                className="form-control border form-control-lg"
-                // value={name}
-                // onChange={(event) => setName(event.target.value)}
-              />
-              {/* {name === "" && ( */}
-
-              {/* )} */}
+                className=" form-control border form-control-lg text-white"
+              >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
             </div>
           </div>
           <div className="d-flex flex-column align-items-center col-12 col-lg-12">
@@ -94,20 +74,20 @@ function Reservation() {
                 Remarques
               </label>
               <textarea
-                className="form-control border form-control-lg w-100"
-                // placeholder="Remarques"
-                // onChange={(event) => setMessage(event.target.value)}
+                id="textarearesa"
+                className="form-control border form-control-lg w-100 text-white"
               />
             </div>
           </div>
           <div className="d-flex justify-content-center mt-3">
-            <button
-              type="button"
-              className=" buttonresa btn btn-dark"
-              // onClick={() => setBtnSubscribe(!btnSubscribe)}
-            >
-              Paiement
-            </button>
+            <Link to="/">
+              <button
+                type="button"
+                className="buttonresa btn btn-dark mb-4 px-5"
+              >
+                Paiement
+              </button>
+            </Link>
           </div>
         </div>
       </div>

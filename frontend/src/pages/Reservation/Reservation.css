@@ -1,0 +1,16 @@
+.Reservation {
+  background-color: #58a4b0;
+  color: white;
+}
+
+#prenomresa,
+#nomresa,
+#telresa,
+#emailresa,
+#nblitresa,
+#textarearesa {
+  background-color: #67a6af;
+}
+.buttonresa {
+  border-radius: 20px;
+}
