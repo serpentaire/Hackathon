@@ -1,8 +1,8 @@
-import Home from "@pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "@components/Footer";
-import Reservation from "@pages/Reservation/Reservation";
-
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Reservation from "./pages/Reservation/Reservation";
+import Map from "./components/Map";
 import "./App.css";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Reservation />
+        <Map />
         <Footer />
       </div>
       <Routes>
