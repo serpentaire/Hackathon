@@ -17,7 +17,7 @@ export default function Home() {
         HandiQat, 1er site de réservation pour la World Cup 2022 au Qatar pour
         les personnes à mobilité réduite et en situation de handicap
       </p>
-      <div className="input-home d-flex flex-column mb-3 align-items-center col-12 text-center m-2">
+      <div className="input-home card d-flex flex-column mb-3 align-items-center text-center">
         <select
           className="form-select form-select-sm w-50 text-center"
           aria-label=".form-select-sm example"
@@ -30,31 +30,8 @@ export default function Home() {
           <option value="5">Suisse</option>
           <option value="6">Italie</option>
         </select>
-        <div className="input w-50">
-          <span className="date-input input-group-text w-0 m-2">
-            Date : Aller | Retour
-          </span>
-          <input
-            onChange={(e) => handleChangeDate(e.target.value)}
-            type="date"
-            id="start"
-            name="trip-start"
-            value={date}
-            min="2022-11-25"
-            max="2022-12-25"
-          />
-          <input
-            onChange={(e) => handleChangeDate(e.target.value)}
-            type="date"
-            id="start"
-            name="trip-start"
-            value={date}
-            min="2022-11-25"
-            max="2022-12-25"
-          />
-        </div>
         <select
-          className="form-select form-select-sm w-50 m-2 text-center"
+          className="form-select form-select-sm w-50 m-3 text-center mb-0"
           aria-label=".form-select-sm example"
         >
           <option selected>Nombre de personnes</option>
@@ -65,6 +42,34 @@ export default function Home() {
         </select>
         <button className="boutton-search btn btn-lg m-2" type="button">
           <span className="text-bouton">Rechercher </span>
+        <div className="input p-0 m-0 d-flex flex-column align-items-center">
+          <span className="date-input justify-content-center input-group-text w-75 m-3">
+            Date : Aller | Retour
+          </span>
+          <div className=" input-date">
+            <input
+              onChange={(e) => handleChangeDate(e.target.value)}
+              type="date"
+              id="start"
+              name="trip-start"
+              value={date}
+              min="2022-11-25"
+              max="2022-12-25"
+            />
+            <input
+              onChange={(e) => handleChangeDate(e.target.value)}
+              type="date"
+              id="start"
+              name="trip-start"
+              value={date}
+              min="2022-11-25"
+              max="2022-12-25"
+            />
+          </div>
+        </div>
+
+        <button className="boutton-search btn btn-lg m-3" type="button">
+          <span className="text-bouton">Rechercher</span>
         </button>
       </div>
       <div className="text d-flex text-center">
