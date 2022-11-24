@@ -6,8 +6,8 @@ function Reservation() {
   return (
     <div className="Reservation">
       <div className="container-fluid">
-        <h1 className="mt-5 text-center py-4">Demande de réservation</h1>
-        <div className="row">
+        <h1 className="mt-2 text-center py-4">Demande de réservation</h1>
+        <div className="row col-12">
           <div className=" d-flex flex-column align-items-center col-12 col-lg-5">
             <div className="text-start mb-4 col-10 col-lg-7">
               <label className="form-label" htmlFor="prenomresa">
@@ -80,7 +80,7 @@ function Reservation() {
             </div>
           </div>
           <div className="d-flex justify-content-center mt-3">
-            <Link to="/">
+            <Link to="/ConfirmPage">
               <button
                 type="button"
                 className="buttonresa btn btn-dark mb-4 px-5"

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./OneHotel.css";
+import Reservation from "@components/Reservation/Reservation";
 // import "@components/Hotels/Hotelscomponent.jsx";
 
 function OneHotel() {
+  const [openpopup, setOpenpopup] = useState(false);
   return (
     <div className="container-onehotel">
       {/* <Hotels /> */}
@@ -49,9 +51,11 @@ function OneHotel() {
         <h2 className="mt-5">Description du lieu 🌵</h2>
       </div>
       <div>
+        {openpopup && <Reservation />}
         <button
           type="button"
           className="reservbutton col-8 col-md-6 col-lg-3 mt-5 mb-5"
+          onClick={() => setOpenpopup(true)}
         >
           <span className="text-white">Je réserve mon séjour ⚽</span>
         </button>
