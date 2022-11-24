@@ -64,7 +64,7 @@ export default function Home() {
           <option value="3">4 et +</option>
         </select>
         <button className="boutton-search btn btn-lg m-2" type="button">
-          <span className="text-bouton">Rechercher</span>
+          <span className="text-bouton">Rechercher </span>
         </button>
       </div>
       <div className="text d-flex text-center">
