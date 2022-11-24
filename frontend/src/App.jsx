@@ -1,8 +1,11 @@
 import Home from "@pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import NavBar from "@components/Navbar/Navbar";
 import Footer from "@components/Footer";
-import Reservation from "@pages/Reservation/Reservation";
+
+import Footer from "@components/Footer/Footer";
+
 
 import "./App.css";
 
@@ -11,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <Reservation />
+        <Home />
         <Footer />
       </div>
       <Routes>
