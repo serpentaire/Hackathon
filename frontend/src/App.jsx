@@ -9,15 +9,15 @@ import "./App.css";
 function App() {
   return (
     <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <div className="App">
         <Map />
         <NavBar />
         <Home />
         <Footer />
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
     </Router>
   );
 }
