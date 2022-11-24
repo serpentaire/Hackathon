@@ -8,13 +8,13 @@ import "./App.css";
 function App() {
   return (
     <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <div className="App">
         <Reservation />
         <Footer />
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
     </Router>
   );
 }
