@@ -1,13 +1,14 @@
 import React from "react";
+import "@components/Footer/Footer.css";
 
 function Footer() {
   return (
     <div className="Footer pt-5 position-absolute w-100 sticky-bottom">
       <div className="container-fluid">
-        <div className="row">
+        <div className="row col-12">
           {/* ----------------------------------------------------début des contacts et réseau sociaux---------------- */}
-          <div className="d-flex col-6 col-sm-7 col-lg-6 align-items-center justify-content-start px-0">
-            <ul className="d-flex align-items-start justify-content-start ps-0">
+          <div className="d-flex col-12 flex-column align-items-center m-0">
+            <ul className="p-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -60,11 +61,13 @@ function Footer() {
               </svg>
             </ul>
           </div>
-          {/* --------------------------------------------------------fin des contacts et réseau sociaux-------------------- */}
-          <div className="row">
-            <div className="mt-2 mt-sm-2">
-              <p className="h6 text-center w-100">© Tous droits réservés.</p>
-            </div>
+        </div>
+        {/* --------------------------------------------------------fin des contacts et réseau sociaux-------------------- */}
+        <div className="row col-12">
+          <div className="d-flex col-12 flex-column align-items-center">
+            <p className="legalFooter text-center mb-0 w-100 text-white">
+              © HandQat - World-Cup 2022
+            </p>
           </div>
         </div>
       </div>
