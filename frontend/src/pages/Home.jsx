@@ -40,6 +40,8 @@ export default function Home() {
           <option value="3">3</option>
           <option value="3">4 et +</option>
         </select>
+        <button className="boutton-search btn btn-lg m-2" type="button">
+          <span className="text-bouton">Rechercher </span>
         <div className="input p-0 m-0 d-flex flex-column align-items-center">
           <span className="date-input justify-content-center input-group-text w-75 m-3">
             Date : Aller | Retour
