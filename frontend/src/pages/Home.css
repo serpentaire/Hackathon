@@ -5,6 +5,9 @@
 .text {
   color: #f4f4f4;
 }
+.input-home {
+  background-color: #373f51;
+}
 
 .handi {
   color: #58a4b0;
@@ -23,7 +26,4 @@
 }
 
 @media (min-width: 768px) {
-  .input-home {
-    display: flex;
-  }
 }
