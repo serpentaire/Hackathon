@@ -63,7 +63,7 @@ function Footer() {
 {/* --------------------------------------------------------fin des contacts et réseau sociaux-------------------- */}
           <div className="row">
             <div className="mt-2 mt-sm-2">
-              <p className="h6 text-center w-100">© All right Reserved.</p>
+              <p className="h6 text-center w-100">© Tous droits réservés.</p>
             </div>
           </div>
         </div>
