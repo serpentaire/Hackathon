@@ -2,3 +2,12 @@
   background-color: #a9bcd0;
   color: #f4f4f4;
 }
+
+.page{
+  height: 600px;
+}
+
+.page2{
+  display: flex;
+  align-items: center;
+}
