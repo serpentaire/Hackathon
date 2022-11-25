@@ -1,0 +1,35 @@
+.container-onehotel {
+  background-color: #f4f4f4;
+  color: #1b1b1e;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.downbutton {
+  background-color: #58a4b0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 0px 30px -10px;
+}
+
+.downbutton:hover {
+  border: 2px solid #373f51;
+}
+
+.reservbutton {
+  background-color: #58a4b0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 0px 30px -10px;
+}
+
+.reservbutton:hover {
+  border: 2px solid #373f51;
+}
+
+.textdedescrip {
+  text-align: justify;
+  margin: 10px;
+}
