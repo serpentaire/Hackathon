@@ -5,6 +5,7 @@ import updateMeta from "@services/Meta";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Lottie from "react-lottie";
 import animationData from "@assets/animation/football.json";
+import ImgHome from "@assets/pictures/home.jpg";
 
 import "./Home.css";
 
@@ -32,7 +33,8 @@ export default function Home() {
 
   return (
     <div className="home-1">
-      <h1 className="text text-center p-5">
+      <img className="img-home img-fluid" src={ImgHome} alt="img-background" />
+      <h1 className="text text-center p-2">
         Des séjours adaptés à <span className="handi">votre handicap </span>
         pendant la coupe du monde 2022
       </h1>
