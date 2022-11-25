@@ -10,10 +10,10 @@ function SelectHotel() {
       <div className="col-lg-6">
         <Map />
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-6 hotelitemMap p-2">
         {Data.map((items) => (
           /* eslint-disable-next-line react/jsx-props-no-spreading */
-          <HotelCard {...items} />
+          <button type="button" className="navbar-toggler p-0"><HotelCard {...items} /></button>
         ))}
       </div>
     </div>
