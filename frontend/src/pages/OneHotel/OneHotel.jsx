@@ -7,15 +7,16 @@ import "./OneHotel.css";
 
 function OneHotel() {
   const [openpopup, setOpenpopup] = useState(false);
+
   return (
     <div className="container-onehotel">
       <Hotels />
       <div className="d-flex flex-column align-items-center">
-        <div>
+        <a href="#scrool">
           <button type="button" className="downbutton p-2 mt-5">
             <span className="text-white">Réserver mon séjour 👇</span>
           </button>
-        </div>
+        </a>
         <div className="container mt-5">
           <h2 className="text-center">Informations sur l'accessibilité ⭐</h2>
           <ul className="d-flex flex-column text-start p-0">
@@ -55,6 +56,7 @@ function OneHotel() {
             type="button"
             className="reservbutton p-2 mt-5 mb-5"
             onClick={() => setOpenpopup(true)}
+            id="scrool"
           >
             <span className="text-white">Je réserve mon séjour ⚽</span>
           </button>
