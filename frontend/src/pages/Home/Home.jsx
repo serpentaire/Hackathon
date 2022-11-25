@@ -1,13 +1,24 @@
 import React, { useState, useEffect } from "react";
-
 import { Link } from "react-router-dom";
-
 import updateMeta from "@services/Meta";
+
+// eslint-disable-next-line import/no-extraneous-dependencies
+import Lottie from "react-lottie";
+import animationData from "@assets/animation/football.json";
 
 import "./Home.css";
 
 export default function Home() {
   const [date, setDate] = useState();
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData,
+    rendererSettings: {
+      // preserveAspectRatio: "xMidYMid slice"
+    },
+  };
 
   useEffect(() => {
     updateMeta(
@@ -91,6 +102,7 @@ export default function Home() {
           Choississez votre équipe préférée et soutenez-la au Qatar ! ⚽
         </p>
       </div>
+      <Lottie options={defaultOptions} height={400} width={400} />
     </div>
   );
 }
