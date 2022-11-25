@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+
+import { Link } from "react-router-dom";
+
 import updateMeta from "@services/Meta";
 
 import "./Home.css";

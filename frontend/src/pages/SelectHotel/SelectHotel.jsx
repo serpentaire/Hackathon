@@ -18,8 +18,10 @@ function SelectHotel() {
       </div>
       <div className="col-lg-6 hotelitemMap p-2">
         {Data.map((items) => (
-          /* eslint-disable-next-line react/jsx-props-no-spreading */
-          <button type="button" className="navbar-toggler p-0"><HotelCard {...items} /></button>
+          <button type="button" className="navbar-toggler p-0">
+            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+            <HotelCard {...items} />
+          </button>
         ))}
       </div>
     </div>

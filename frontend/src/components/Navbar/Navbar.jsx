@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "/src/assets/pictures/Le-logo-de-la-coupe-du-monde-Qatar-2022-enfin-dévoilé-01-removebg-preview.png";
+import Logo from "@assets/pictures/logocdm.png";
 
 import "./Navbar.css";
 
