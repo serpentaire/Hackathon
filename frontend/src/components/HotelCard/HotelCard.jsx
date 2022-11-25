@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import iconeFootball from "@assets/pictures/football.jpg";
 
 import "./HotelCard.css";
@@ -9,7 +9,9 @@ function HotelCard({ name, image, note, adress, type, price }) {
   return (
     <div className="items card d-flex align-items-center">
       <div className="col-5">
-        <img className="img-item img-fluid" src={image} alt={name} />
+        <Link to="/OneHotel">
+          <img className="img-item img-fluid" src={image} alt={name} />
+        </Link>
       </div>
       <div className="d-flex col-7 flex-column">
         <div className="p-2 text-start">
