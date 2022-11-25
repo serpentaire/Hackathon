@@ -40,16 +40,16 @@
   color: #58a4b0;
   font-size: 0.9rem;
 }
- .photoItems {
+.photoItems {
   width: 4rem;
   margin-left: 70px;
   margin-top: -35px;
- }
+}
 
- .item-h1{
+.item-h1 {
   font-size: 0.8em;
- }
+}
 
- .item-p {
+.item-p {
   font-size: 0.6em;
- }
+}

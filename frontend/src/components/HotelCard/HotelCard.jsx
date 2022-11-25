@@ -1,5 +1,6 @@
 import React from "react";
-import iconeFootball from "/src/assets/pictures/football.jpg"
+
+import iconeFootball from "@assets/pictures/football.jpg";
 
 import "./HotelCard.css";
 
