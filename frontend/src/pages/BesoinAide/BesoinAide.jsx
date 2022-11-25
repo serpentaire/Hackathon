@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "@pages/BesoinAide/BesoinAide.css";
+import updateMeta from "@services/Meta";
 
 function BesoinAide() {
+  useEffect(() => {
+    updateMeta("Besoin d'aide ?");
+  }, []);
+
   return (
     <div className="BesoinAide home-1 d-flex flex-column align-items-center">
       <div className="col-11 col-sm-10">
-        <h1 className="titrebesoinaid text mb-5 pt-4">
+        <h1 className="titrebesoinaid text-white mb-5 pt-4">
           <b>Vous avez besoin d'aide ?</b>
         </h1>
         <p className="textbesoinaid text">

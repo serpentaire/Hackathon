@@ -32,7 +32,7 @@ function NavBar() {
       >
         <button
           type="button"
-          className="navbar-button m-2 navbar-toggler d-flex align-items-center"
+          className="navbar-button m-2 navbar-toggler d-flex align-items-center ps-4"
         >
           Besoin d'aide ? 📞
         </button>

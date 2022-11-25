@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Hotels from "@components/Hotels/Hotelscomponent";
 import Data from "@services/Data";
 import Reservation from "@components/Reservation/Reservation";
+import updateMeta from "@services/Meta";
 
 import "./OneHotel.css";
 
 function OneHotel() {
   const [openpopup, setOpenpopup] = useState(false);
+
+  useEffect(() => {
+    updateMeta(Data[0].name);
+  }, []);
 
   return (
     <div className="container-onehotel">
