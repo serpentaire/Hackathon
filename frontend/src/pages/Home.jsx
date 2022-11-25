@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from "react";
 import updateMeta from "@services/Meta";
+import Lottie from "react-lottie";
+import animationData from "/src/assets/animation/foot.json";
 
 import "./Home.css";
 
 export default function Home() {
   const [date, setDate] = useState();
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      // preserveAspectRatio: "xMidYMid slice"
+    }
+  };
 
   useEffect(() => {
     updateMeta(
@@ -85,6 +95,7 @@ export default function Home() {
       <div className="text d-flex text-center">
         <p>Choississez votre équipe préférée et soutenez-la au Qatar ! ⚽</p>
       </div>
+      <Lottie options={defaultOptions} height={400} width={400} />
     </div>
   );
 }
