@@ -6,17 +6,14 @@ import "./SelectHotel.css";
 
 function SelectHotel() {
   return (
-    <div className="">
-      <div className="d-lg-none d-xl-block">
+    <div className="hotelitem grid">
+      <div className="col-lg-6">
         <Map />
       </div>
-      <div className="">
+      <div className="col-lg-6">
         {Data.map((items) => (
           <HotelCard {...items} />
         ))}
-      </div>
-      <div className="d-none d-lg-block d-xl-none">
-        <Map />
       </div>
     </div>
   );
