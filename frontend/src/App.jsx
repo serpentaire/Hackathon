@@ -6,7 +6,7 @@ import OneHotel from "@pages/OneHotel/OneHotel";
 import ConfirmPage from "@pages/ConfirmPage/ConfirmPage";
 import BesoinAide from "@pages/BesoinAide/BesoinAide";
 
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import "./App.css";
 
 function App() {

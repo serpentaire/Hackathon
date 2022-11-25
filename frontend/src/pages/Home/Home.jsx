@@ -28,10 +28,9 @@ export default function Home() {
       </p>
       <div className="input-home card d-flex flex-column mb-3 align-items-center text-center">
         <select
-          className="form-select form-select-sm w-50 text-center"
+          className="select-person form-select form-select-sm w-50 text-center mt-3"
           aria-label=".form-select-sm example"
         >
-          <option selected>Choisissez votre Pays</option>
           <option value="1">France</option>
           <option value="2">Angleterre</option>
           <option value="3">Espagne</option>
@@ -40,7 +39,7 @@ export default function Home() {
           <option value="6">Italie</option>
         </select>
         <select
-          className="form-select form-select-sm w-50 m-3 text-center mb-0"
+          className="select-person form-select form-select-sm w-50 m-3 text-center mb-0"
           aria-label=".form-select-sm example"
         >
           <option selected>Nombre de personnes</option>
@@ -49,15 +48,11 @@ export default function Home() {
           <option value="3">3</option>
           <option value="3">4 et +</option>
         </select>
-        <button className="boutton-search btn btn-lg m-2" type="button">
-          <span className="text-bouton">Rechercher </span>
-        </button>
         <div className="input p-0 m-0 d-flex flex-column align-items-center">
-          <span className="date-input justify-content-center input-group-text w-75 m-3">
-            Date : Aller | Retour
-          </span>
-          <div className=" input-date">
+          <p className="text-date m-2"> Date : Aller | Retour</p>
+          <div className="input-date">
             <input
+              className="me-1"
               onChange={(e) => handleChangeDate(e.target.value)}
               type="date"
               id="start"
@@ -66,7 +61,9 @@ export default function Home() {
               min="2022-11-25"
               max="2022-12-25"
             />
+            <b className="space-date">|</b>
             <input
+              className="ms-1"
               onChange={(e) => handleChangeDate(e.target.value)}
               type="date"
               id="start"
@@ -78,12 +75,18 @@ export default function Home() {
           </div>
         </div>
 
-        <button className="boutton-search btn btn-lg m-3" type="button">
+        <Link
+          to="/SelectHotel"
+          className="boutton-search btn btn-lg m-3"
+          type="button"
+        >
           <span className="text-bouton">Rechercher</span>
-        </button>
+        </Link>
       </div>
-      <div className="text d-flex text-center">
-        <p>Choississez votre équipe préférée et soutenez-la au Qatar ! ⚽</p>
+      <div className="text d-flex justify-content-center text-center fs-4">
+        <p className="mb-5">
+          Choississez votre équipe préférée et soutenez-la au Qatar ! ⚽
+        </p>
       </div>
     </div>
   );
