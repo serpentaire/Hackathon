@@ -3,11 +3,11 @@
   color: #f4f4f4;
 }
 
-.page{
+.page {
   height: 600px;
 }
 
-.page2{
+.page2 {
   display: flex;
   align-items: center;
 }
