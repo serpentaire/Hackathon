@@ -26,17 +26,17 @@ function NavBar() {
         </Link>
       </div>
 
-        <Link
-          to="/BesoinAide"
-          className="text-white d-md-block navbar-toggler text-decoration-none"
+      <Link
+        to="/BesoinAide"
+        className="text-white d-md-block navbar-toggler text-decoration-none"
+      >
+        <button
+          type="button"
+          className="navbar-button m-2 navbar-toggler d-flex align-items-center"
         >
-          <button
-            type="button"
-            className="navbar-button m-2 navbar-toggler d-flex align-items-center"
-          >
-            Besoin d'aide ? 📞
-          </button>
-        </Link>
+          Besoin d'aide ? 📞
+        </button>
+      </Link>
     </nav>
   );
 }
