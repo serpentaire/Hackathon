@@ -1,0 +1,63 @@
+.home-1 {
+  background-color: #a9bcd0;
+}
+
+.text {
+  color: #f4f4f4;
+}
+
+.text-date {
+  color: #f4f4f4;
+}
+
+.input-home {
+  background-color: #373f51;
+}
+
+.handi {
+  color: #58a4b0;
+}
+
+.date-input {
+  background-color: #f4f4f4;
+}
+
+.boutton-search {
+  background-color: #58a4b0;
+  border-radius: 10px;
+}
+
+.text-bouton {
+  color: #f4f4f4;
+}
+
+.space-date {
+  color: #f4f4f4;
+}
+
+.select-person {
+  border-radius: 100px;
+}
+
+@media (min-width: 768px) {
+  .home-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-home {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: #373f51;
+  }
+
+  .img-home {
+    width: 100%;
+    height: 50rem;
+    margin-top: -220px;
+  }
+}

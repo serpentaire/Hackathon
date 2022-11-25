@@ -1,0 +1,45 @@
+.Reservation {
+  background-color: #58a4b0;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+}
+
+#prenomresa,
+#nomresa,
+#telresa,
+#emailresa,
+#nblitresa,
+#textarearesa {
+  background-color: #67a6af;
+}
+.buttonresa {
+  border-radius: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .Reservation {
+    position: absolute;
+    z-index: 1;
+    left: 16%;
+    top: 1100px;
+    bottom: 0px;
+    width: 550px;
+    height: 850px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Reservation {
+    position: absolute;
+    z-index: 1;
+    left: 17%;
+    top: 1250px;
+    bottom: 0px;
+    width: 850px;
+    height: 850px;
+    border-radius: 20px;
+  }
+}

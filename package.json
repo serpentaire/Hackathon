@@ -20,6 +20,6 @@
     "husky": "^7.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "react-lottie": "^1.2.3"
   }
 }

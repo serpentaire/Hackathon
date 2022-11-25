@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+  .hotelitem {
+    display: flex;
+  }
+}
+
+.hotelitemMap {
+  height: 100vh;
+  overflow: scroll;
+}
