@@ -22,7 +22,14 @@ export default function Map() {
     map.current.addControl(new maplibregl.NavigationControl(), "top-right");
     new maplibregl.Marker({ color: "#FF0000" })
       .setLngLat([51.49793, 25.27587])
-      .addTo(map.current);
+      .addTo(map.current)
+      .setPopup(
+        new maplibregl.Popup().setHTML(
+          "<div>" +
+            `<input type="button" value="Ouvrir" onClick="window.location.href='../OneHotel'" />` +
+            "</div>"
+        )
+      );
     new maplibregl.Marker({ color: "#FF0000" })
       .setLngLat([51.540176, 25.374749])
       .addTo(map.current);
