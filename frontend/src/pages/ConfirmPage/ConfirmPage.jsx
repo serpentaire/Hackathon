@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import updateMeta from "@services/Meta";
+
 import "./ConfirmPage.css";
 
 function ConfirmPage() {
+  useEffect(() => {
+    updateMeta("Confirmation reservation");
+  }, []);
+
   return (
     <div className="container-confirm">
       <div className="confirmation-message text-center col-12">

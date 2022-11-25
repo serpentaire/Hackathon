@@ -1,10 +1,16 @@
+import React, { useEffect } from "react";
 import Map from "@components/Map/Map";
 import HotelCard from "@components/HotelCard/HotelCard";
 import Data from "@services/Data";
+import updateMeta from "@services/Meta";
 
 import "./SelectHotel.css";
 
 function SelectHotel() {
+  useEffect(() => {
+    updateMeta("Choissisez votre hotel, et bon match !");
+  }, []);
+
   return (
     <div className="hotelitem grid">
       <div className="col-lg-6">

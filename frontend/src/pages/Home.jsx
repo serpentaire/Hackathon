@@ -1,12 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import updateMeta from "@services/Meta";
+
 import "./Home.css";
 
 export default function Home() {
   const [date, setDate] = useState();
 
+  useEffect(() => {
+    updateMeta(
+      "Accueil - La plateforme qui permet aux personnes en situation de handicap de passer un séjour au Qatar pour la Coupe du monde 2022"
+    );
+  }, []);
+
   const handleChangeDate = (e) => {
     setDate(e.target.value);
   };
+
   return (
     <div className="home-1">
       <h1 className="text text-center p-5">
