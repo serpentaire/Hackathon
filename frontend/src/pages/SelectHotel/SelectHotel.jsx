@@ -12,6 +12,7 @@ function SelectHotel() {
       </div>
       <div className="">
         {Data.map((items) => (
+          /* eslint-disable-next-line react/jsx-props-no-spreading */
           <HotelCard {...items} />
         ))}
       </div>
