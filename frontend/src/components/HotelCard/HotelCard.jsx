@@ -2,6 +2,7 @@ import React from "react";
 
 import "./HotelCard.css";
 
+/* eslint-disable react/prop-types */ // TODO: upgrade to latest eslint tooling
 function HotelCard({ name, image, note, adress, type, price }) {
   return (
     <div className="items  card d-flex">
