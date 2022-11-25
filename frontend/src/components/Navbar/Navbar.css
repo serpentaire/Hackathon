@@ -12,3 +12,8 @@
   background-color: #ffffff;
   color: #373f51;
 }
+
+.navbar-brand {
+  margin-right: -25px;
+  margin-top: 10px;
+}

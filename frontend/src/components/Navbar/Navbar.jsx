@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "/src/assets/pictures/Le-logo-de-la-coupe-du-monde-Qatar-2022-enfin-dévoilé-01-removebg-preview.png";
 
 import "./Navbar.css";
 
@@ -9,18 +10,21 @@ function NavBar() {
       id="navbar"
     >
       <div className="me-auto d-flex">
-        <Link to="/" className="navbar-toggler text-decoration-none">
+        <Link
+          to="/"
+          className="navbar-toggler navbar-brand text-decoration-none"
+        >
           <img
-            src=""
+            src={Logo}
             alt="Logo"
             width="70"
-            height="70"
-            className="navbar-brand d-md-inline"
+            height="50"
+            className="d-md-inline"
           />
         </Link>
         <Link
           to="/"
-          className="d-flex align-items-center text-decoration-none text-white d-inline"
+          className="d-flex align-items-center fw-bolder fs-5 text-decoration-none text-white d-inline"
         >
           <div>HandiQat</div>
         </Link>
