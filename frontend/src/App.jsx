@@ -5,7 +5,7 @@ import SelectHotel from "@pages/SelectHotel/SelectHotel";
 import OneHotel from "@pages/OneHotel/OneHotel";
 import ConfirmPage from "@pages/ConfirmPage/ConfirmPage";
 
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import "./App.css";
 
 function App() {
