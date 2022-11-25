@@ -45,12 +45,12 @@ export default function Home() {
           className="select-person form-select form-select-sm w-50 text-center mt-3"
           aria-label=".form-select-sm example"
         >
-          <option value="1">France</option>
-          <option value="2">Angleterre</option>
-          <option value="3">Espagne</option>
-          <option value="4">Allemagne</option>
-          <option value="5">Suisse</option>
-          <option value="6">Italie</option>
+          <option value="1">France 🇫🇷</option>
+          <option value="2">Angleterre 🏴󠁧󠁢󠁥󠁮󠁧󠁿</option>
+          <option value="3">Espagne 🇪🇸</option>
+          <option value="4">Allemagne 🇩🇪</option>
+          <option value="5">Suisse 🇨🇭</option>
+          <option value="6">Italie 🇮🇹</option>
         </select>
         <select
           className="select-person form-select form-select-sm w-50 m-3 text-center mb-0"
