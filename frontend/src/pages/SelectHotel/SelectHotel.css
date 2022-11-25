@@ -1,9 +1,9 @@
 @media (min-width: 992px) {
-  .hotelitem{
+  .hotelitem {
     display: flex;
   }
 
-  .hotelitemMap{
+  .hotelitemMap {
     height: 100%;
   }
 }
