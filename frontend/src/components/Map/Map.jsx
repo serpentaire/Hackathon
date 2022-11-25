@@ -32,16 +32,44 @@ export default function Map() {
       );
     new maplibregl.Marker({ color: "#FF0000" })
       .setLngLat([51.540176, 25.374749])
-      .addTo(map.current);
+      .addTo(map.current)
+      .setPopup(
+        new maplibregl.Popup().setHTML(
+          "<div>" +
+            `<input type="button" value="Ouvrir" onClick="window.location.href='../OneHotel'" />` +
+            "</div>"
+        )
+      );
     new maplibregl.Marker({ color: "#FF0000" })
       .setLngLat([51.544982, 25.271766])
-      .addTo(map.current);
+      .addTo(map.current)
+      .setPopup(
+        new maplibregl.Popup().setHTML(
+          "<div>" +
+            `<input type="button" value="Ouvrir" onClick="window.location.href='../OneHotel'" />` +
+            "</div>"
+        )
+      );
     new maplibregl.Marker({ color: "#FF0000" })
       .setLngLat([51.351107, 25.324817])
-      .addTo(map.current);
+      .addTo(map.current)
+      .setPopup(
+        new maplibregl.Popup().setHTML(
+          "<div>" +
+            `<input type="button" value="Ouvrir" onClick="window.location.href='../OneHotel'" />` +
+            "</div>"
+        )
+      );
     new maplibregl.Marker({ color: "#FF0000" })
       .setLngLat([51.535279, 25.275168])
-      .addTo(map.current);
+      .addTo(map.current)
+      .setPopup(
+        new maplibregl.Popup().setHTML(
+          "<div>" +
+            `<input type="button" value="Ouvrir" onClick="window.location.href='../OneHotel'" />` +
+            "</div>"
+        )
+      );
   });
 
   return (
