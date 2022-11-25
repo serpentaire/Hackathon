@@ -6,7 +6,7 @@ function BesoinAide() {
   return (
     <div className="BesoinAide home-1 d-flex flex-column align-items-center">
       <div className="col-11 col-sm-10">
-        <h1 className="titrebesoinaid text mb-5 pt-4">
+        <h1 className="titrebesoinaid text-white mb-5 pt-4">
           <b>Vous avez besoin d'aide ?</b>
         </h1>
         <p className="textbesoinaid text">
