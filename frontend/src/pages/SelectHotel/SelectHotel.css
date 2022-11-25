@@ -2,8 +2,9 @@
   .hotelitem {
     display: flex;
   }
+}
 
-  .hotelitemMap {
-    height: 100%;
-  }
+.hotelitemMap{
+  height: 100vh;
+  overflow: scroll;
 }
